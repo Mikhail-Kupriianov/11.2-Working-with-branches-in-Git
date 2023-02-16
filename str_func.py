@@ -1,5 +1,8 @@
 def all_upper(text):
-    """ This function returns a received text with all capital letters """
+    """" Return all letters as capital """
     return text.upper()
 
 
+def titled_words(text):
+    """" Return all word as capital """
+    return text.title()
