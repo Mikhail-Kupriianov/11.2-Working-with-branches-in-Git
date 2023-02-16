@@ -4,5 +4,5 @@ def all_upper(text):
 
 
 def titled_words(text):
-    """" Return all word as capital """
-    return text.title()
+    """" Return the first letter as capital """
+    return text.capitalize()
